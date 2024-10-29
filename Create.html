@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar  bg-primary  navbar-expand-lg" data-bs-theme="dark">
+        <div class="container-fluid">
+            <div class="name"><a href="#" class="navbar-brand"><u>A.A. Johnes Bank</u></a></div> 
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar"><span class="navbar-toggler-icon"><span></button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="./accountservices.html">Account Services</a>
+                    <a class="nav-link" href="./contact.html">Contact Us</a>
+                   
+                </div>
+            </div>
+            <!-- search bar -->
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search">
+                <button class="btn btn-outline-tertiary" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <br>
+    <form>
+        <div class="row">
+            <div class="mb-3 col-md-6">
+                <label class="form-label" for="name"> Full-Name</label>
+                <input type="text" class="form-control" placeholder="Full-Name" id="name">
+                <br>
+            </div>
+            <div class="mb-3 col-md-6">
+                <label class="form-label" for="email">Email</label>
+                <input type="text" class="form-control" placeholder="Email" id="email">
+            </div>
+            <div class="mb-3 col-md-6">
+                <label class="form-label" for="ph">Phone-Number</label>
+                <input type="digit" class="form-control" placeholder="Phone-Number" id="ph">
+                <br>
+            </div>
+        </div>
+        
+        
+    </form>
+    <div class="mb-3">
+        <label>Select Account Type</label>
+        <select class="form-select">
+            
+            <!-- selected means already selected -->
+            <option selected>Savings</option>
+            <!-- other options -->
+            <option value="1">Credit</option>
+            <option value="2">Family-360</option>
+            
+    
+        </select>
+        </div>
+    <a href="./thank.html" class="btn btn-outline-tertiary">Submit</a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
+    "></script>
+
+</body>
+</html>
